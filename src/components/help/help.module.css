@@ -1,0 +1,27 @@
+.help{
+    max-width: 1300px;
+    margin:  0 auto;
+}
+.help_images{
+    background: url('/bac2.avif')   ;
+}
+.help_information{
+    padding-top: 55px ;
+}
+.help .container{
+     display: flex;
+     justify-content: space-between;
+}
+.help_title{
+    font-size: 120px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: #004290;
+}   
+.help_image{
+    width: 650px;
+    height: 600px;
+}
+.help_send{
+    padding-top: 35px;
+}

@@ -1,0 +1,103 @@
+.send_button {
+    width: 350px;
+    height: 45px;
+    font-size: 26px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    background-color: #23AF5F;
+    border-radius: 10px;
+    border: none;
+    transition: all 0.5s ease-in-out;
+    margin-top:5px;
+}
+
+.send_button:hover {
+    background-color: #269956;
+    cursor: pointer;
+}
+
+.modal_container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.modal_background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.modal_content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    width: 80%;
+    max-width: 500px;
+}
+
+.modal_title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #0056b3;
+}
+
+.modal_form_item {
+    margin-bottom: 15px;
+}
+
+.modal_submit_button {
+    background-color: #28a745;
+    color: white;
+    width: 100%;
+    border: none;
+    padding: 10px 0;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.modal_cancel_button {
+    background-color: #dc3545;
+    color: white;
+    width: 100%;
+    border: none;
+    padding: 10px 0;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.modal_description {
+    margin-top: 15px;
+    font-size: 12px;
+    text-align: center;
+    color: #666;
+}
+
+.error_message {
+    color: red;
+    font-size: 12px;
+}
+.send_input{
+    width: 460px;
+    height: 45px;
+    height: 20px;
+    padding: 20px;
+    border: none;
+    outline: none;
+    background-color: #d1ecf1;
+    color: #0c5460;
+}
